@@ -2,6 +2,7 @@
 
 #define SHELL_H
 
+
 #include <stdio.h> /* for printf*/
 
 #include <unistd.h> /* for fork, execve*/
@@ -75,9 +76,6 @@ void inicialize_data(data_of_program *data, int arc, char *argv[], char **env);
 
 /* Makes the infinite loop that shows the prompt*/
 void sisifo(char *prompt, data_of_program *data);
-
-/* Print the prompt in a new line */
-void handle_ctrl_c(int opr UNUSED);
 
 /*========  _getline.c  ========*/
 

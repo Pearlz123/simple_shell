@@ -18,7 +18,7 @@ int main(int argc, char *argv[], char *env[])
 	signal(SIGINT, handle_ctrl_c);
 
 	if (isatty(STDIN_FILENO) && isatty(STDOUT_FILENO) && argc == 1)
-	{/* Negassi and Comfort are in the terminal, interactive mode */
+	{/* My team member and I are in Ubuntu, interactive mode */
 		errno = 2;
 		prompt = PROMPT_MSG;
 	}
