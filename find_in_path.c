@@ -3,9 +3,9 @@
 int check_file(char *full_path);
 
 /**
- * find_program - find a program in path
+ * find_program - finds a program in path
  * @data: a pointer to the program's data
- * Return: 0 if success, errcode otherwise
+ * Return: (0) if success, errorcode otherwise
  */
 
 int find_program(data_of_program *data)
